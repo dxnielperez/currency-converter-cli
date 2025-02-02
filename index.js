@@ -113,7 +113,7 @@ const main = async () => {
     const convertedAmount = (amount * rate).toFixed(2);
     console.log(
       chalk.green.bold(
-        `${amount} ${fromCurrency.toUpperCase()} = ${convertedAmount} ${toCurrency.toUpperCase()}\n`
+        `\n ${amount} ${fromCurrency.toUpperCase()} = ${convertedAmount} ${toCurrency.toUpperCase()}\n`
       )
     );
   }
